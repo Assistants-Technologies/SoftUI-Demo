@@ -29,6 +29,7 @@ client.login(process.env.DISCORD_BOT_TOKEN);
         ownerIDs: process.env.ADMINS.split(' '),
         bot: client,
         theme: Theme,
+        acceptPrivacyPolicy: true,
     });
     Dashboard.init();
 })();
