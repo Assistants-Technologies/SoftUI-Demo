@@ -25,11 +25,13 @@ client.login(process.env.DISCORD_BOT_TOKEN);
         },
         redirectUri: `${process.env.DOMAIN}/discord/callback`,
         domain: process.env.DOMAIN,
-        settings: [],
+        useTheme404: true,
+        useThemeMaintenance: true,
+        acceptPrivacyPolicy: true,
         ownerIDs: process.env.ADMINS.split(' '),
         bot: client,
         theme: Theme,
-        acceptPrivacyPolicy: true,
+        settings: [],
     });
     Dashboard.init();
 })();
