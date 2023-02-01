@@ -1,12 +1,14 @@
 {
   "name": "SoftUI-Demo",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./src/dashboard/index.js",
   "license": "MIT",
   "dependencies": {
-    "dbd-soft-ui": "^1.5.2-beta.1",
-    "discord-dashboard": "2.3.46",
-    "discord.js": "^14.6.0",
+    "@dbd-soft-ui/logs": "^1.1.1",
+    "@dbd-soft-ui/shards": "^1.0.0",
+    "dbd-soft-ui": "^1.6.32-beta.1",
+    "discord-dashboard": "2.3.61",
+    "discord.js": "^14.7.1",
     "dotenv": "^16.0.3"
   }
 }

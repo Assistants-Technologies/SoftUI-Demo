@@ -20,7 +20,7 @@ module.exports = SoftUI({
     websiteName: "Assistants",
     /*
     You can choose a colour scheme from the following:
-    colorScheme: "dark | pink | blue | red | green | yellow",
+    colorScheme: "dark | pink | blue | red | green | yellow | custom",
     */
     colorScheme: "pink",
     supporteMail: "support@support.com",
