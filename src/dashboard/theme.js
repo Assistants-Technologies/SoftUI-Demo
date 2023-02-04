@@ -31,9 +31,9 @@ module.exports = SoftUI({
         sidebar: {
             darkUrl: 'https://assistantscenter.com/api/user/avatar/63ad65e2d3f1b1b3acdff794',
             lightUrl: 'https://assistantscenter.com/api/user/avatar/63ad65e2d3f1b1b3acdff794',
-            hideName: true,
-            borderRadius: false,
-            alignCenter: true
+            hideName: false,
+            borderRadius: true,
+            alignCenter: false
         },
     },
     index: {
